@@ -1,0 +1,59 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f2f2;
+  color: #991111;
+  padding: 10xp;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #363630;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: #e6c405;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+ .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #444;
+      min-width: 160px;
+      z-index: 1000;
+ }
+ .dropdown-content a {
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: block;
+    }
+   .dropdown-content a:hover {
+      background-color: #555;
+    }
+     ul li:hover .dropdown-content {
+      display: block;
+    }
