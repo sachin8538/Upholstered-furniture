@@ -15,8 +15,8 @@ body {
 
 /* Navbar styles */
 .navbar {
-  background-color: #363630;
-  padding: 5px 10px;
+  background-color: #0a0a0a;
+  padding: 20px 10px;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .logo a {
-  color: #e6c405;
+  color: #0af3f3ee;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -56,4 +56,5 @@ body {
     }
      ul li:hover .dropdown-content {
       display: block;
+
     }
